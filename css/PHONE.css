@@ -1,0 +1,63 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header > h1{
+    text-align: center;
+    font-size: 40px;
+    color:blue;
+    text-shadow: 4px 5px lightblue;
+}
+ul.menu{  
+      list-style-type: none;
+    background-color: lightblue;
+        margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+ul.menu > li{
+    border-right: 1px solid black;
+    min-width: 150px;
+    text-align: center; 
+}
+ul.menu > li:last-child{
+    border-right: none;
+}
+ul.menu > li > a{
+    text-decoration: none;
+    padding:15px 20px;
+    display: block;
+}
+ul.menu > li > a:hover{
+     background-color: burlywood;
+}
+div.phones{
+display: flex;
+}
+div.phone{
+    width:25%;
+    border: 1px solid blue;
+    text-align: center;
+    border-radius: 10px;
+    padding:5px;
+    margin: 3px;
+}
+div.phone > img{
+    width:100%;
+}
+div.phone > div.info{
+    background: linear-gradient(lightblue, blue);
+    padding: 10px;
+}
+div.mobi{
+    background-color: blue;
+    width:10%;
+    border-top-right-radius: 10px;
+
+}
+div.mobi > .mobis{
+    padding:15px 2px;
+}
+div.mobi > .KT{
+    background-color: blue;
+}
